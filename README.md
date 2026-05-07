@@ -2,7 +2,7 @@
 
 Object detection (Part 1) and cross-domain patch classification (Part 2) on ACNE04. Assumed to being Google Colab for compute.
 
-**Make sure to change directory paths in both notebooks**
+***Make sure to change directory paths in both notebooks***
 ---
 
 ## Datasets
