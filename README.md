@@ -1,4 +1,4 @@
-# Acne Classification — Two-Part Pipeline
+# Acne Classification
 
 Object detection (Part 1) and cross-domain patch classification (Part 2) on ACNE04. ASsumed to being Google Colab for compute.
 
