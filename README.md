@@ -140,10 +140,6 @@ fc head → lr = 1e-3
 - **Scheduler**: `ReduceLROnPlateau(mode='max', patience=5, factor=0.5)` on val F1
 - **Class imbalance**: `pos_weight = n_neg / n_pos` computed dynamically
 
-### Domain Adaptation
-
-Histogram matching shifts DermNet's colour distribution to match ACNE04's at inference time. The reference image is built from 500 random ACNE04 train patches (20 in smoke mode). Applied to DermNet only — applying it to ACNE04 val would be data leakage.
-
 ### Evaluation Output
 
 The eval cell (Section 7) prints:
