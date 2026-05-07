@@ -36,7 +36,7 @@ All tunable parameters live at the top of **Section 1**:
 ```python
 # ── Quick test vs. full training ──────────────────────────────────────
 QUICK_TEST = True    # 3 epochs — fast smoke test
-QUICK_TEST = False   # full training: 100 epochs YOLO, 50 epochs DINO
+QUICK_TEST = False   # full training: 100 epochs YOLO, 100 epochs DINO
 
 # ── Batch sizes ───────────────────────────────────────────────────────
 DINO_BATCH = 2   # L4 (22 GB) or T4 (16 GB)
